@@ -12,7 +12,7 @@ This repository contains a Model Context Protocol (MCP) server for BigQuery inte
 - `check_mcp_stdio.py`: Utility to check MCP stdio communication
 - `requirements.txt`: Python dependencies
 
-## Getting Started
+## Getting Started 1
 
 1. Install the required dependencies:
    ```
