@@ -48,7 +48,7 @@ async def test_client():
 
             # Test execute_query tool with a simple query
             print("\nExecuting a simple query...")
-            query = "SELECT 1 as test"
+            query = "SELECT first raw from table"
             result = await session.call_tool("execute_query", {"query": query})
             print_result(result)
 
