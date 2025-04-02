@@ -1,0 +1,4 @@
+mcp
+pydantic-ai[logfire]
+python-dotenv
+uv

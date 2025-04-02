@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "bigquery": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_server_bigquery"
+      ],
+      "env": {
+        "BIGQUERY_PROJECT": "your-gcp-project-id",
+        "BIGQUERY_LOCATION": "us-central1",
+        "GOOGLE_APPLICATION_CREDENTIALS": "/path/to/your/credentials.json",
+        "LOGFIRE_TOKEN": "your-logfire-token"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

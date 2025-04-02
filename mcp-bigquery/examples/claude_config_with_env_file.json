@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "bigquery": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_server_bigquery",
+        "--env-file",
+        "/path/to/your/.env"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
