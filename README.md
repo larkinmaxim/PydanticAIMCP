@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/larkinmaxim-pydanticaimcp-badge.png)](https://mseep.ai/app/larkinmaxim-pydanticaimcp)
+
 # MCP BigQuery
 
 This repository contains a Model Context Protocol (MCP) server for BigQuery integration. It allows Claude and other AI assistants to interact with Google BigQuery through the MCP protocol.
